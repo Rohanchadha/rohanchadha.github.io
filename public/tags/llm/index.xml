@@ -13,11 +13,19 @@
       <link>http://localhost:1313/posts/2025-11-30-hfagentscourse/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-11-30-hfagentscourse/</guid>
-      <description>&lt;p&gt;Some notes I took while completing &lt;a href=&#34;https://huggingface.co/learn/agents-course/unit0/introduction&#34;&gt;Huggingface Agents Course&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Agent Definition: An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions, often using external tools, to fulfill tasks
-Agent Components (Brain and Body):
-The Brain (AI Model): This is where reasoning and planning occur, and it decides which Actions to take based on the situation.
-The Body (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some notes I took while completing &lt;a href=&#34;https://huggingface.co/learn/agents-course/unit0/introduction&#34;&gt;HuggingFace Agents Course&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An Agent is a system that uses an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and execution of actions (using external tools) to fulfill tasks&lt;/li&gt;
+&lt;li&gt;Agent have 2 main Components:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Brain&lt;/strong&gt; (AI Model): This is where reasoning and planning happens, and it decides which Actions to take based on the situation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Body&lt;/strong&gt; (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;LLMs - An AI model that excels at understanding and generating human langugage
+Trained on vast amount of data that allows it learn patterns, structure and nuances of the language&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
