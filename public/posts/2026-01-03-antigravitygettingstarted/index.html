@@ -8,24 +8,14 @@
 <title>Getting Started with Antigravity | Rohan Chadha</title>
 <meta name="keywords" content="How I AI, Agents, Antigravity">
 <meta name="description" content="I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
+Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us
 
 
 Agent Manager &amp; Editor
 
 
 
-AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc
-
-Task Lists - before writing code, agent generates this structured plan
-Implementation Plan - this is used to architect changes within the codebase to do a task &amp; it contains a lot of technical details
-Walkthrough - created once the task is completed, it summarizes changes &amp; tells you how to test it
-Code Diffs
-Screenshots - state of UI before and after the code changes
-browser Recordings - for dynamic interactions, agent records the video of the session
-
-
-
-It is possible to interact with the artifacts by highlighting text and commenting on it. The agent will consider the feedback and iterate on it">
+AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
@@ -151,7 +141,8 @@ It is possible to interact with the artifacts by highlighting text and commentin
 
 </div>
   </header> 
-  <div class="post-content"><p>I am getting started with antigravity, will be using this post to capture key concepts and terminologies.</p>
+  <div class="post-content"><p>I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
+Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us</p>
 <ul>
 <li>
 <p>Agent Manager &amp; Editor
@@ -160,12 +151,12 @@ It is possible to interact with the artifacts by highlighting text and commentin
 <li>
 <p>AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc</p>
 <ul>
-<li>Task Lists - before writing code, agent generates this structured plan</li>
-<li>Implementation Plan - this is used to architect changes within the codebase to do a task &amp; it contains a lot of technical details</li>
-<li>Walkthrough - created once the task is completed, it summarizes changes &amp; tells you how to test it</li>
-<li>Code Diffs</li>
-<li>Screenshots - state of UI before and after the code changes</li>
-<li>browser Recordings - for dynamic interactions, agent records the video of the session</li>
+<li><strong>Task Lists</strong> - before writing code, agent generates this structured plan</li>
+<li><strong>Implementation Plan</strong> - this is used to architect changes within the codebase to do a task &amp; it contains a lot of technical details (what tech stack it will use, etc)</li>
+<li><strong>Walkthrough</strong> - created once the task is completed, it summarizes changes &amp; tells you how to test it</li>
+<li><strong>Code Diffs</strong></li>
+<li><strong>Screenshots</strong> - state of UI before and after the code changes</li>
+<li><strong>Browser Recordings</strong> - for dynamic interactions, agent records the video of the session</li>
 </ul>
 </li>
 <li>
@@ -173,6 +164,25 @@ It is possible to interact with the artifacts by highlighting text and commentin
 </li>
 <li>
 <p>AntiGravity Browser subagent - AGY managed browser &amp; can operate on the pages. It can click, scroll, read console logs, read DOM, click screenshots, make videos, parse markdoen etc.</p>
+</li>
+<li>
+<p>You can use &lsquo;@&rsquo; to include context such as a file, directory, MCP server or use &lsquo;/&rsquo; to refer to a workflow (saved prompts)</p>
+</li>
+<li>
+<p>Rules and Workflows:</p>
+<ul>
+<li>Rules help guide the behavior of the agent. Guidelines you to provide agent to be followed (coding style, document methods)</li>
+<li>Workflows are saved prompts. They can also guide agent&rsquo;s behavior but they are called on demand
+<img alt="Workflow Example" loading="lazy" src="/posts/2026-01-03-antigravitygettingstarted/workflow.png"></li>
+</ul>
+</li>
+<li>
+<p>Terminal Command Auto Execution - giving the agent access to terminal and browsers enables autonomous debugging, deployment but also opens axis for security risks. There&rsquo;s 3 settings that agy has:</p>
+<ul>
+<li>Off - agent never auto-executes terminal commands unless explicitly allowed (in allow list)</li>
+<li>Auto - asks for permission for risky commands</li>
+<li>Turbo - always auto-executes (unless in Deny list)</li>
+</ul>
 </li>
 </ul>
 <p>Reference Links - <a href="https://codelabs.developers.google.com/getting-started-google-antigravity%5D">https://codelabs.developers.google.com/getting-started-google-antigravity]</a></p>

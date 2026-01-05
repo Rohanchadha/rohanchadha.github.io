@@ -13,25 +13,15 @@
       <link>http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/</guid>
-      <description>&lt;p&gt;I am getting started with antigravity, will be using this post to capture key concepts and terminologies.&lt;/p&gt;
+      <description>&lt;p&gt;I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
+Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Agent Manager &amp;amp; Editor
 &lt;img alt=&#34;Agent Manager vs Editor&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/AgentManager.png&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Task Lists - before writing code, agent generates this structured plan&lt;/li&gt;
-&lt;li&gt;Implementation Plan - this is used to architect changes within the codebase to do a task &amp;amp; it contains a lot of technical details&lt;/li&gt;
-&lt;li&gt;Walkthrough - created once the task is completed, it summarizes changes &amp;amp; tells you how to test it&lt;/li&gt;
-&lt;li&gt;Code Diffs&lt;/li&gt;
-&lt;li&gt;Screenshots - state of UI before and after the code changes&lt;/li&gt;
-&lt;li&gt;browser Recordings - for dynamic interactions, agent records the video of the session&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;It is possible to interact with the artifacts by highlighting text and commenting on it. The agent will consider the feedback and iterate on it&lt;/p&gt;</description>
+&lt;p&gt;AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notes on Agents</title>
