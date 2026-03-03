@@ -10,7 +10,7 @@ title: "Rohan Chadha"
 * Currently self-learning vibe coding & piano
 
 **Here's where I've worked so far 👇**:
-* Product & Data @ shiksha.com (160 Cr revenue, 500M+ annual visits)
+* Product & Data @ Info Edge (shiksha.com) - 160 Cr revenue, 500M+ annual visits
 * Product & Growth @ zingbus - YC'21 ($70M intercity bus travel aggregator)
 * Software Engineer @ Capgemini (Wealth Mgmt/Payments)
 

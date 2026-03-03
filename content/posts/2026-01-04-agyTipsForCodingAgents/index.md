@@ -28,7 +28,7 @@ A  framework I learnt to get good at vibecoding from this [YT video](https://www
     - You can annotate those artefacts and add comments (see image below) nudging the agent in any direction of your choice
     - You can even nudge the agent to follow styling from your "brandGuidelines" file or an attached screenshots
 
-![Editing Artefacts](image.png)
+    ![Editing Artefacts](image.png)
 
     - Within any project workspace, you can fire up multiple concurrent agent that are doing different tasks (research, competitor analysis, etc)
     - E.g. "What are the top 5 Customer Support SaaS provideers from India? What features do they all have in common? Do a whole competitive analysis. And then create a document competetiveAnalysis.md and save it in the project files"
