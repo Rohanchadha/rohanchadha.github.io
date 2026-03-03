@@ -27,13 +27,12 @@ A  framework I learnt to get good at vibecoding from this [YT video](https://www
     - AGY generates [artefacts](https://rohanchadha.github.io/posts/2026-01-03-antigravitygettingstarted/)
     - You can annotate those artefacts and add comments (see image below) nudging the agent in any direction of your choice
     - You can even nudge the agent to follow styling from your "brandGuidelines" file or an attached screenshots
-
-    ![Editing Artefacts](image.png)
-
     - Within any project workspace, you can fire up multiple concurrent agent that are doing different tasks (research, competitor analysis, etc)
     - E.g. "What are the top 5 Customer Support SaaS provideers from India? What features do they all have in common? Do a whole competitive analysis. And then create a document competetiveAnalysis.md and save it in the project files"
     - MCP Servers - Conecting AGY talk to other tools (github, vercel, BigQuery, n8n etc)
     - Customizations -> Workflows - These are saved prompts that an agent can follow. I can trigger a workflow by / (selecting the workflow) in agent input box
+    
+    ![Editing Artefacts](image.png)
 
 4. **W - World**
     - You can host what you build directly on Vercel or Github Pages
