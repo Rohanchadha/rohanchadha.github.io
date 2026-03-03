@@ -5,19 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Getting Started with Antigravity | Rohan Chadha</title>
-<meta name="keywords" content="How I AI, Agents, Antigravity, vibecoding">
-<meta name="description" content="I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
-Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us
-
-
-Agent Manager &amp; Editor
-
-
-
-AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc">
+<title>Posts | Rohan Chadha</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Rohan Chadha">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/">
+<link rel="canonical" href="http://localhost:1313/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
@@ -26,7 +18,8 @@ AGY creates artiacts as it plans and gets work done to communicate its work done
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -66,7 +59,7 @@ AGY creates artiacts as it plans and gets work done to communicate its work done
 </noscript>
 </head>
 
-<body class="" id="top">
+<body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -108,7 +101,7 @@ AGY creates artiacts as it plans and gets work done to communicate its work done
         <ul id="menu">
             <li>
                 <a href="http://localhost:1313/posts/" title="Blog">
-                    <span>Blog</span>
+                    <span class="active">Blog</span>
                 </a>
             </li>
             <li>
@@ -129,76 +122,32 @@ AGY creates artiacts as it plans and gets work done to communicate its work done
         </ul>
     </nav>
 </header>
-<main class="main">
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Getting Started with Antigravity
-    </h1>
-    <div class="post-meta"><span title='2026-01-03 00:00:00 +0000 UTC'>January 3, 2026</span>
-
-</div>
-  </header> 
-  <div class="post-content"><p>I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
-Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us</p>
-<ul>
-<li>
-<p>Agent Manager &amp; Editor
-<img alt="Agent Manager vs Editor" loading="lazy" src="/posts/2026-01-03-antigravitygettingstarted/AgentManager.png"></p>
-</li>
-<li>
-<p>AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc</p>
-<ul>
-<li><strong>Task Lists</strong> - before writing code, agent generates this structured plan</li>
-<li><strong>Implementation Plan</strong> - this is used to architect changes within the codebase to do a task &amp; it contains a lot of technical details (what tech stack it will use, etc)</li>
-<li><strong>Walkthrough</strong> - created once the task is completed, it summarizes changes &amp; tells you how to test it</li>
-<li><strong>Code Diffs</strong></li>
-<li><strong>Screenshots</strong> - state of UI before and after the code changes</li>
-<li><strong>Browser Recordings</strong> - for dynamic interactions, agent records the video of the session</li>
-</ul>
-</li>
-<li>
-<p>It is possible to interact with the artifacts by highlighting text and commenting on it. The agent will consider the feedback and iterate on it</p>
-</li>
-<li>
-<p>AntiGravity Browser subagent - AGY managed browser &amp; can operate on the pages. It can click, scroll, read console logs, read DOM, click screenshots, make videos, parse markdoen etc.</p>
-</li>
-<li>
-<p>You can use &lsquo;@&rsquo; to include context such as a file, directory, MCP server or use &lsquo;/&rsquo; to refer to a workflow (saved prompts)</p>
-</li>
-<li>
-<p>Rules and Workflows:</p>
-<ul>
-<li>Rules help guide the behavior of the agent. Guidelines you to provide agent to be followed (coding style, document methods)</li>
-<li>Workflows are saved prompts. They can also guide agent&rsquo;s behavior but they are called on demand
-<img alt="Workflow Example" loading="lazy" src="/posts/2026-01-03-antigravitygettingstarted/workflow.png"></li>
-</ul>
-</li>
-<li>
-<p>Terminal Command Auto Execution - giving the agent access to terminal and browsers enables autonomous debugging, deployment but also opens axis for security risks. There&rsquo;s 3 settings that agy has:</p>
-<ul>
-<li>Off - agent never auto-executes terminal commands unless explicitly allowed (in allow list)</li>
-<li>Auto - asks for permission for risky commands</li>
-<li>Turbo - always auto-executes (unless in Deny list)</li>
-</ul>
-</li>
-</ul>
-<p>Reference Links - <a href="https://codelabs.developers.google.com/getting-started-google-antigravity%5D">https://codelabs.developers.google.com/getting-started-google-antigravity]</a></p>
-
-
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How Search works
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Google search works in 3 stages. All pages do not necessarily go through all 3 stages.
+Crawling Indexing Serving Search results Crawling Automated Programs called crawlers, download the text, images, and videos of a website Google discovers pages through: URL Discovery - Google follows a link from a known page to a new page Sitemaps - you submit a list of pages to Google to crawl Indexing Post crawling, google tries to understand what the page is about - by processing and analyzing textual content, key tags of the page During this process, google also determines if the page is a duplicate or canonical. Canonical is the page that may be shown in the search results. Webpages with similar content are first grouped together &amp; then a page representative of the group is selected as canonical Serving Search Results When a user makes a search query, Google Machines searches the index for matching pages It returns the result most relevant to the user’s query. The relevancy depends on hundred’s of factors - location, language, device etc. </p>
   </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/how-i-ai/">How I AI</a></li>
-      <li><a href="http://localhost:1313/tags/agents/">Agents</a></li>
-      <li><a href="http://localhost:1313/tags/antigravity/">Antigravity</a></li>
-      <li><a href="http://localhost:1313/tags/vibecoding/">Vibecoding</a></li>
-    </ul>
-  </footer>
+  <footer class="entry-footer"><span title='2024-11-09 00:00:00 +0000 UTC'>November 9, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to How Search works" href="http://localhost:1313/posts/2024-11-09-howsearchworks/"></a>
 </article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/posts/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">
