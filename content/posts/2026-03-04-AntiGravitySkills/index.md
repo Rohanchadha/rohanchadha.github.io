@@ -1,6 +1,6 @@
 ---
 date: '2026-03-04'
-draft: true
+draft: false
 title: 'Skills in Antigravity'
 tags: ["How I AI","Agents","Antigravity","Vibecoding"]
 ---
