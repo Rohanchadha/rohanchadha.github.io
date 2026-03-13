@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/tags/how-i-ai/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5541e03271430d6659fc6ee79cf49c5ac1d327e8ec8bb1119ada1faa06ecb6bf.css" integrity="sha256-VUHgMnFDDWZZ/G7nnPScWsHTJ&#43;jsi7ERmtofqgbstr8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/favicon-32x32.png">
@@ -56,7 +56,10 @@
         }
 
     </style>
-</noscript>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="list" id="top">
@@ -131,6 +134,45 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Stitch MCP for Vibe design
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>How to use Stitch</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-09 00:00:00 +0000 UTC'>March 9, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Stitch MCP for Vibe design" href="http://localhost:1313/posts/2026-03-09-stitchmcp/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Claude Code - Security Audit Prompt
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
+You are a senior application security engineer specializing in AI-generated codebases. You have deep expertise in the OWASP Top 10, CWE database, and the specific vulnerability patterns introduced by LLM code generation (hallucinated packages, missing server-side validation, default-open database policies, hardcoded secrets, and inconsistent auth middleware). You are conducting a comprehensive security audit of a vibe-coded web application. “Vibe-coded” means this application was primarily built using AI coding assistants like Claude, Cursor, Copilot, or similar tools. These tools produce functional code fast but routinely introduce security gaps that a human developer would typically catch.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-08 00:00:00 +0000 UTC'>March 8, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Claude Code - Security Audit Prompt" href="http://localhost:1313/posts/2026-03-09-securityprompt/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Vibe Coding - Good Practices
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> A handy good starter AGENTS.md with 3-layer architecture - Directive, Orchestration, Execution Link to file - AGENTS.md Add this file in directory, reference it in chat –&gt; @AGENTS.md instantiate It’ll just set up the folder structure as mentioned in the file Generate an AGENTS.md file at the end (or a logical stop point) of a vibecoding session If you’re going to be switching models in between &amp; pick the project back again after some gap of time. And you want to avoid context rot, this could be good practice You can use below prompt Could you create a Gemini.md that effectively encapsulates what this app is, everything we’ve done so far, and then provides instructions for future models in case we need to pass this off.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-08 00:00:00 +0000 UTC'>March 8, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Vibe Coding - Good Practices" href="http://localhost:1313/posts/2026-03-08-goodpractice/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Claude Code - Prompt for creating a plan
     </h2>
   </header>
@@ -177,6 +219,22 @@ Discovery: When a conversation starts, the agent sees a list of available skills
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Starter AGENTS md file
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Starter AGENTS.md with 3 layer architecture Agent Instructions This file is mirrored across CLAUDE.md, AGENTS.md, and GEMINI.md so the same instructions load in any AI environment.
+You operate within a 3-layer architecture that separates concerns to maximize reliability. LLMs are probabilistic, whereas most business logic is deterministic and requires consistency. This system fixes that mismatch.
+The 3-Layer Architecture Layer 1: Directive (What to do)
+Basically just SOPs written in Markdown, live in directives/ Define the goals, inputs, tools/scripts to use, outputs, and edge cases Natural language instructions, like you’d give a mid-level employee Layer 2: Orchestration (Decision making)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-03 00:00:00 +0000 UTC'>March 3, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Starter AGENTS md file" href="http://localhost:1313/posts/2026-03-03-agents/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Antigravity workflows
     </h2>
   </header>
@@ -218,47 +276,12 @@ An Agent is a system that uses an AI model to interact with its environment in o
   <footer class="entry-footer"><span title='2025-11-30 00:00:00 +0000 UTC'>November 30, 2025</span></footer>
   <a class="entry-link" aria-label="post link to Notes on Agents" href="http://localhost:1313/posts/2025-11-30-hfagentscourse/"></a>
 </article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Gemini 3 is bonkers
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>At work today, I was trying to come up with a math function to normalize some scores on a scale of 0-1. I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn’t quite had the function nailed down.
-So, I gave Gemini 3 an idea of what I am trying to do and I gave it rough expectations from the normalization function i.e
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-11-26 00:00:00 +0000 UTC'>November 26, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Gemini 3 is bonkers" href="http://localhost:1313/posts/2025-11-26-gemini3-bonkers/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Cleaning Messy Data with 5 minute Gemini Prompt
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>The Task I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.
-The Prompt I spent about five minutes writing an initial prompt. I included these points in the prompt:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-10-14 00:00:00 +0000 UTC'>October 14, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Cleaning Messy Data with 5 minute Gemini Prompt" href="http://localhost:1313/posts/2025-10-14-beautifulsoup/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Vibe Coding - Good Practices
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> A handy good starter AGENTS.md with 3-layer architecture - Directive, Orchestration, Execution Link to file - AGENTS.md Add this file in directory, reference it in chat –&gt; @AGENTS.md instantiate It’ll just set up the folder structure as mentioned in the file Generate an AGENTS.md file at the end (or a logical stop point) of a vibecoding session If you’re going to be switching models in between &amp; want to avoid context rot, this could be good practice You can use below prompt Could you create a Gemini.md that effectively encapsulates what this app is, everything we’ve done so far, and then provides instructions for future models in case we need to pass this off.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-03-08 00:00:00 +0000 UTC'>March 8, 2025</span></footer>
-  <a class="entry-link" aria-label="post link to Vibe Coding - Good Practices" href="http://localhost:1313/posts/2026-03-08-goodpractice/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/tags/how-i-ai/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

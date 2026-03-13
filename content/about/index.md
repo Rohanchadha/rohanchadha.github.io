@@ -1,7 +1,68 @@
 ---
-title: "Rohan Chadha"
-## description: "Some things about me"
+layout: "simple"
 ---
+
+<div class="first-entry" style="margin-bottom: 2rem;">
+  <div class="entry-header">
+    <h2>About</h2>
+  </div>
+  <div class="entry-content" style="opacity: 1; -webkit-line-clamp: unset;">
+    AI-Native Product & Program Manager with 7+ years of experience leading complex, engineering-heavy initiatives. Proven track record in architecting RAG-based systems and Voice AI solutions that drive business growth and internal efficiency. Deeply immersed in the evolving LLM landscape, from Claude Code to agent first workflows. Leveraging cutting-edge automations to 10x internal team’s velocity & accelerate product adoption
+  </div>
+</div>
+
+<h2 style="margin: 3rem 0 1.5rem; font-family: Fraunces; font-size: 2rem;">Selected Wins</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+  <div class="post-entry">
+    <div class="entry-header">
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Onboarding Revamp</h2>
+    </div>
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
+      Reduced time-to-value from 14 days to 5 days through guided setup, milestone nudges, and lifecycle triggers.
+    </div>
+    <div class="entry-footer">
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+28% activation</a></span>
+    </div>
+  </div>
+
+  <div class="post-entry">
+    <div class="entry-header">
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Insights Dashboard</h2>
+    </div>
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
+      Launched role-based analytics for SMB customers after 22 discovery interviews and 3 rapid prototype rounds.
+    </div>
+    <div class="entry-footer">
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+19 NPS points</a></span>
+    </div>
+  </div>
+
+  <div class="post-entry">
+    <div class="entry-header">
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Pricing & Packaging</h2>
+    </div>
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
+      Introduced usage-based tiers and guardrails that improved expansion motion without adding sales friction.
+    </div>
+    <div class="entry-footer">
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+17% ARR expansion</a></span>
+    </div>
+  </div>
+</div>
+
+<div class="post-entry" style="padding: 1.5rem 1rem 1.25rem;">
+  <h2 style="font-family: Fraunces; font-size: 1.8rem; margin: 0 0 1rem;">Toolkit</h2>
+  <div class="post-tags" style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+    <span class="toolkit-pill">Product Strategy</span>
+    <span class="toolkit-pill">User Research</span>
+    <span class="toolkit-pill">Roadmapping</span>
+    <span class="toolkit-pill">A/B Testing</span>
+    <span class="toolkit-pill">SQL + Analytics</span>
+    <span class="toolkit-pill">Cross-functional Leadership</span>
+  </div>
+</div>
+
 **Some things about me:**
 * Grew up in Amritsar
 * Graduated from NIT Jalandhar + IIFT
@@ -126,4 +187,3 @@ I was leading the whole product pipeline at this point. I had 4 direct reports (
     * Customer Glu - Gamification campaigns
     * Bimaplan - Travel Insurance Provider
     * Clime.io - Carbon Neutralization initiative
-

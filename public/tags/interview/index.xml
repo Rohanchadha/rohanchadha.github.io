@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Interview on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/interview/</link>
+    <description>Recent content in Interview on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Questions I have been asked so far</title>
+      <link>http://localhost:1313/posts/2025-11-28-pminterviewquestions/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-28-pminterviewquestions/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;What 4 Key Metrics would you look at daily if you were Product head of Youtube Premium?&lt;/li&gt;
+&lt;li&gt;How would you improve Naukri Jobseeker App?&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

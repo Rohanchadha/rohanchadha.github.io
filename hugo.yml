@@ -5,6 +5,7 @@ theme: PaperMod
 
 params:
   defaultTheme: auto
+  disableThemeToggle: false
   homeInfoParams:
     Title: "\U0001F44B Welcome to my blog"
     Content: >-
@@ -48,3 +49,8 @@ caches:
     dir: :cacheDir/images0
 
 googleAnalytics: G-S6WKGZZ8VF
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
