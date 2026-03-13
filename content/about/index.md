@@ -78,7 +78,7 @@ layout: "simple"
 * Product & Growth @ zingbus - YC'21 ($70M intercity bus travel aggregator)
 * Software Engineer @ Capgemini (Wealth Mgmt/Payments)
 
-## Infoedge - shiksha.com (1 year)
+## Infoedge - shiksha.com (1 year 5 months)
 * Shiksha is India's leading education guidance platform 
     * 500 Mn+ annual vists
     * 1 Mn+ App Downloads
@@ -87,7 +87,7 @@ layout: "simple"
 * I still work here. so can't talk about much else rn 😁
 
 
-## Zingbus - YC'21 (2 years 8 months)
+## Zingbus - YC'21 (2 years 9 months)
 * zingbus - an **asset-light** & **SOP-heavy** business. 
 * It partners with small and medium size bus fleet operators.
 * Aggregates this supply under zingbus brands - plus, maxx, valuebus (kinda like OYO does with hotels)
