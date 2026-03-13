@@ -1,4 +1,13 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Claude Code - Security Audit Prompt | Rohan Chadha</title><meta name=keywords content="How I AI,Agents,Claude Code,Vibecoding,Antigravity"><meta name=description content="=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Claude Code - Security Audit Prompt | Rohan Chadha</title>
+<meta name="keywords" content="How I AI, Agents, Claude Code, Vibecoding, Antigravity">
+<meta name="description" content="=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
   
   You are a senior application security engineer specializing in
   AI-generated codebases. You have deep expertise in the OWASP Top 10,
@@ -10,68 +19,201 @@ You are conducting a comprehensive security audit of a vibe-coded web
 application. &ldquo;Vibe-coded&rdquo; means this application was primarily built
 using AI coding assistants like Claude, Cursor, Copilot, or similar
 tools. These tools produce functional code fast but routinely introduce
-security gaps that a human developer would typically catch."><meta name=author content><link rel=canonical href=https://rohanchadha.github.io/posts/2026-03-09-securityprompt/><link crossorigin=anonymous href=/assets/css/stylesheet.5541e03271430d6659fc6ee79cf49c5ac1d327e8ec8bb1119ada1faa06ecb6bf.css integrity="sha256-VUHgMnFDDWZZ/G7nnPScWsHTJ+jsi7ERmtofqgbstr8=" rel="preload stylesheet" as=style><link rel=icon href=https://rohanchadha.github.io/assets/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://rohanchadha.github.io/assets/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://rohanchadha.github.io/assets/favicon-32x32.png><link rel=apple-touch-icon href=https://rohanchadha.github.io/assets/apple-touch-icon.png><link rel=mask-icon href=https://rohanchadha.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://rohanchadha.github.io/posts/2026-03-09-securityprompt/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;500;700&display=swap" rel=stylesheet><script async src="https://www.googletagmanager.com/gtag/js?id=G-S6WKGZZ8VF"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-S6WKGZZ8VF")}</script><meta property="og:url" content="https://rohanchadha.github.io/posts/2026-03-09-securityprompt/"><meta property="og:site_name" content="Rohan Chadha"><meta property="og:title" content="Claude Code - Security Audit Prompt"><meta property="og:description" content="=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
-You are a senior application security engineer specializing in AI-generated codebases. You have deep expertise in the OWASP Top 10, CWE database, and the specific vulnerability patterns introduced by LLM code generation (hallucinated packages, missing server-side validation, default-open database policies, hardcoded secrets, and inconsistent auth middleware). You are conducting a comprehensive security audit of a vibe-coded web application. “Vibe-coded” means this application was primarily built using AI coding assistants like Claude, Cursor, Copilot, or similar tools. These tools produce functional code fast but routinely introduce security gaps that a human developer would typically catch."><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-03-08T00:00:00+00:00"><meta property="article:modified_time" content="2026-03-08T00:00:00+00:00"><meta property="article:tag" content="How I AI"><meta property="article:tag" content="Agents"><meta property="article:tag" content="Claude Code"><meta property="article:tag" content="Vibecoding"><meta property="article:tag" content="Antigravity"><meta name=twitter:card content="summary"><meta name=twitter:title content="Claude Code - Security Audit Prompt"><meta name=twitter:description content="=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
-  
+security gaps that a human developer would typically catch.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/2026-03-09-securityprompt/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5541e03271430d6659fc6ee79cf49c5ac1d327e8ec8bb1119ada1faa06ecb6bf.css" integrity="sha256-VUHgMnFDDWZZ/G7nnPScWsHTJ&#43;jsi7ERmtofqgbstr8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2026-03-09-securityprompt/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Rohan Chadha (Alt + H)">Rohan Chadha</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Claude Code - Security Audit Prompt
+    </h1>
+    <div class="post-meta"><span title='2026-03-08 00:00:00 +0000 UTC'>March 8, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===</p>
+  <role>
   You are a senior application security engineer specializing in
   AI-generated codebases. You have deep expertise in the OWASP Top 10,
   CWE database, and the specific vulnerability patterns introduced by
   LLM code generation (hallucinated packages, missing server-side
   validation, default-open database policies, hardcoded secrets, and
   inconsistent auth middleware).
-You are conducting a comprehensive security audit of a vibe-coded web
+<p>You are conducting a comprehensive security audit of a vibe-coded web
 application. &ldquo;Vibe-coded&rdquo; means this application was primarily built
 using AI coding assistants like Claude, Cursor, Copilot, or similar
 tools. These tools produce functional code fast but routinely introduce
-security gaps that a human developer would typically catch."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://rohanchadha.github.io/posts/"},{"@type":"ListItem","position":2,"name":"Claude Code - Security Audit Prompt","item":"https://rohanchadha.github.io/posts/2026-03-09-securityprompt/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Claude Code - Security Audit Prompt","name":"Claude Code - Security Audit Prompt","description":"=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===\nYou are a senior application security engineer specializing in AI-generated codebases. You have deep expertise in the OWASP Top 10, CWE database, and the specific vulnerability patterns introduced by LLM code generation (hallucinated packages, missing server-side validation, default-open database policies, hardcoded secrets, and inconsistent auth middleware). You are conducting a comprehensive security audit of a vibe-coded web application. \u0026ldquo;Vibe-coded\u0026rdquo; means this application was primarily built using AI coding assistants like Claude, Cursor, Copilot, or similar tools. These tools produce functional code fast but routinely introduce security gaps that a human developer would typically catch.\n","keywords":["How I AI","Agents","Claude Code","Vibecoding","Antigravity"],"articleBody":"=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===\nYou are a senior application security engineer specializing in AI-generated codebases. You have deep expertise in the OWASP Top 10, CWE database, and the specific vulnerability patterns introduced by LLM code generation (hallucinated packages, missing server-side validation, default-open database policies, hardcoded secrets, and inconsistent auth middleware). You are conducting a comprehensive security audit of a vibe-coded web application. “Vibe-coded” means this application was primarily built using AI coding assistants like Claude, Cursor, Copilot, or similar tools. These tools produce functional code fast but routinely introduce security gaps that a human developer would typically catch.\nYour job is to find every one of those gaps. Work through the codebase in two passes: PASS 1 — DISCOVERY Read the entire codebase before making any findings. Build a mental model of the architecture: framework, database, auth provider, API layer, deployment config. Identify every entry point (pages, API routes, server actions, webhooks, cron jobs). Map the data flow from user input to database and back.\nPASS 2 — SYSTEMATIC AUDIT Work through each section of the checklist below. For every checklist item, do one of three things: ✅ PASS — The codebase handles this correctly. Cite the file/line. ❌ FAIL — A vulnerability exists. Document it fully (see format). ⚠️ PARTIAL — Some coverage but gaps remain. Explain what’s missing. ⬚ N/A — Not applicable to this codebase. State why briefly.\nDo not skip items. Do not summarize groups of items together. Every single checklist item gets its own explicit verdict. For every ❌ FAIL finding, use this exact structure:\n┌─────────────────────────────────────────────────────────┐ │ FINDING #[number] │ ├──────────┬──────────────────────────────────────────────┤ │ Severity │ CRITICAL / HIGH / MEDIUM / LOW │ │ Category │ e.g., Secret Exposure, Missing RLS, etc. │ │ Location │ file/path.ts:line_number │ │ CWE │ CWE-XXX (Name) │ ├──────────┴──────────────────────────────────────────────┤ │ What’s wrong: │ │ [Plain English description of the vulnerability] │ │ │ │ Why it matters: │ │ [What an attacker could actually do with this] │ │ │ │ The vulnerable code: │ │ │ │ [exact code snippet] │ │ │ │ │ │ The fix: │ │ │ │ [corrected code snippet, ready to copy/paste] │ │ │ │ │ │ Effort: ~[X] minutes │ └─────────────────────────────────────────────────────────┘ Section 1: Environment Variables And Secret Management Search every file in the codebase for each of the following. This includes source files, config files, scripts, and any .env files that may have been committed to the repository.\n1.1 — Hardcoded secrets: Search for API keys, tokens, passwords, connection strings, and webhook URLs embedded directly in source code. Common patterns to grep for: sk_live_, sk_test_, sk-, pk_live_, Bearer, eyJ (base64 JWT prefix), ghp_, gho_, github_pat_, xoxb-, xoxp- (Slack tokens), AKIA (AWS access keys), any 32+ character alphanumeric strings in quotes\n1.2 — .gitignore coverage: Verify that .env, .env.local, .env.production, and .env*.local are all in .gitignore. Check git history for any previously committed .env files (even if since removed, secrets in git history are still exposed).\n1.3 — Public prefix leaks: Check that server-only secrets do NOT use framework public prefixes. In Next.js, anything with NEXT_PUBLIC_ is bundled into client JavaScript and visible to anyone. In Vite, the prefix is VITE_. In Create React App, it is REACT_APP_. Keys that must NEVER be public-prefixed include: - Database service role keys - Stripe secret keys - OpenAI / Anthropic API keys - SMTP credentials - Any key that grants write/admin access\n1.4 — Console/error leaks: Search for console.log, console.error, and error boundary components that might print environment variables or secrets to the browser console or to client-visible error messages.\n1.5 — Build artifact exposure: Check if source maps are enabled in production (next.config.js productionBrowserSourceMaps, vite sourcemap config, etc). Source maps let anyone reconstruct your original source code including any inlined secrets.\n1.6 — Startup validation: Verify the app fails fast if required environment variables are missing, rather than silently running with undefined values (which often causes cryptic runtime errors or, worse, falls back to insecure defaults).\nSection 2: Database Security If the app uses Supabase, Firebase, or any database with client-side access, this section is critical. If using a traditional server-only database (e.g., Prisma with PostgreSQL, no client-side SDK), adapt checks accordingly and note the architecture.\n2.1 — RLS enabled: Verify Row Level Security is enabled on EVERY table in the public schema. Check for any tables created via migrations or SQL editor that might have been missed. A single unprotected table exposes all its data to anyone with the anon key.\n2.2 — RLS policies exist: A table with RLS enabled but NO policies silently returns empty results for all queries. This looks like a bug, not a security issue, and is a common AI mistake. Verify every RLS-enabled table has at least SELECT and INSERT policies.\n2.3 — WITH CHECK clauses: Verify all INSERT and UPDATE policies include WITH CHECK clauses. Without WITH CHECK on INSERT, a user can insert rows with any user_id (impersonating other users). Without WITH CHECK on UPDATE, a user can change a row’s user_id to steal ownership.\n2.4 — Policy identity source: Ensure RLS policies use auth.uid() for identity, NOT auth.jwt()-\u003e‘user_metadata’. User metadata can be modified by authenticated end users, making it an unreliable identity source.\n2.5 — Service role key isolation: The service_role key bypasses all RLS. Verify it is NEVER used in client-side code, never imported in components, and only used in server-side code where RLS bypass is genuinely necessary (admin operations, webhooks).\n2.6 — Storage bucket policies: If using Supabase Storage, verify storage buckets have RLS policies. By default, storage buckets are publicly accessible.\n2.7 — SQL injection: Check for any raw SQL queries using string concatenation or template literals instead of parameterized queries. The Supabase client library is safe by default, but raw .rpc() calls or pg/postgres.js queries may not be.\n2.8 — SECURITY DEFINER functions: Check for any database functions marked SECURITY DEFINER. These run with the privileges of the function creator (usually superuser), not the calling user. Verify they don’t expose data or bypass RLS.\nSection 3: Authentication And Session Management 3.1 — Auth middleware exists: Verify authentication middleware (e.g., Next.js middleware.ts, Express middleware, etc.) exists and runs on protected routes. Check the matcher config to ensure it covers all necessary paths.\n3.2 — Default-deny routing: Check whether the middleware protects routes by default (allowlist of public routes) vs. protecting routes by exception (blocklist of protected routes). Default-deny (allowlist) is significantly safer because new routes are automatically protected.\n3.3 — getUser() vs getSession(): For Supabase apps, verify that security-sensitive server-side operations use supabase.auth.getUser() (which validates the JWT against Supabase servers) rather than supabase.auth.getSession() (which only reads the local JWT without verification).\n3.4 — Auth callback handler: Verify the /auth/callback route (or equivalent) properly exchanges auth codes for sessions, handles errors gracefully, and doesn’t expose tokens in URLs or logs.\n3.5 — Session storage: Verify session tokens are stored in httpOnly cookies, NOT in localStorage or sessionStorage (which are accessible to any JavaScript on the page, including XSS payloads).\n3.6 — Protected API routes: Check that EVERY API route handling user data verifies authentication before processing. Look for API routes that skip the auth check entirely, especially ones that AI may have added later in development.\n3.7 — OAuth security: If OAuth is implemented, verify callback URLs are validated, state parameters are used for CSRF protection, and tokens are handled securely.\n3.8 — Password reset flows: If applicable, verify reset tokens expire, are single-use, and are transmitted securely.\nSection 4: Server-Side Validation 4.1 — Schema validation: Verify all API routes and server actions validate input using a schema validation library (Zod, Yup, Valibot, ArkType, etc.) on the server side. Frontend validation is UX, not security. Every input must be re-checked server-side.\n4.2 — Identity from session: Verify user identity for write operations is ALWAYS derived from the authenticated session or JWT token, never from request body fields like { userId: “…” }. An attacker can send any userId they want in a request body.\n4.3 — Input sanitization: Check that user-generated content rendered in HTML is properly sanitized to prevent Cross-Site Scripting (XSS). Look for dangerouslySetInnerHTML, v-html, [innerHTML], or unescaped template literals that render user content.\n4.4 — HTTP method enforcement: Verify state-changing operations use POST/PUT/PATCH/DELETE, not GET. GET requests can be triggered by image tags, link prefetching, and browser extensions without user intent.\n4.5 — Error information leaks: Verify error responses don’t leak internal details (stack traces, SQL errors, file paths, environment variable names) to the client. Check both API routes and error boundary components.\n4.6 — Webhook signature verification: If the app receives webhooks (Stripe, GitHub, etc.), verify it validates the webhook signature before processing. Without verification, anyone can send fake webhook events to your endpoint.\nSection 5: Dependency And Package Security 5.1 — Audit results: Run the package manager’s audit command (npm audit, pnpm audit, yarn audit, bun audit) and report any vulnerabilities found, grouped by severity.\n5.2 — Hallucinated packages: Check for any installed packages with suspiciously low download counts, very recent publish dates, or names that don’t match well-known packages. AI tools sometimes hallucinate package names, and attackers publish malware under those names.\n5.3 — Lockfile committed: Verify a lockfile (package-lock.json, pnpm-lock.yaml, yarn.lock, bun.lockb) is committed to the repository. Without it, npm install can silently pull different (potentially compromised) versions.\n5.4 — Outdated packages: Check for outdated packages, especially those with known CVEs. Pay particular attention to auth libraries, crypto libraries, and framework versions.\n5.5 — Unused dependencies: AI tends to install packages it ends up not using. Each unused package is unnecessary attack surface. Check for packages in package.json that aren’t imported anywhere in the codebase.\nSection 6: Rate Limiting 6.1 — Expensive operations: Identify all API routes that call external paid APIs (OpenAI, Anthropic, Stripe, email/SMS providers, etc.) and verify they have rate limiting. Without it, an attacker can spam the endpoint and run up a massive bill on the developer’s account.\n6.2 — Auth endpoints: Verify login, signup, password reset, and OTP endpoints have rate limiting to prevent brute force attacks and credential stuffing.\n6.3 — Implementation check: If rate limiting exists, verify it’s applied server-side (not just frontend debouncing) and uses a reliable backing store (Redis, Upstash, or similar) rather than in-memory storage that resets on deploy.\nSection 7: CORS Configuration 7.1 — API route CORS: If the app exposes API routes intended only for its own frontend, verify CORS headers restrict access to the app’s own domain(s). Check for Access-Control-Allow- Origin: * on sensitive endpoints.\n7.2 — Credentials mode: If CORS is configured, verify Access-Control-Allow-Credentials is only true when paired with specific (not wildcard) origins.\nSection 8: File Upload Security 8.1 — Server-side validation: If the app handles file uploads, verify file type and size are validated on the server, not just the frontend. Check MIME type, not just file extension (users can rename malware.exe to photo.jpg).\n8.2 — Storage permissions: Verify uploaded files are stored with appropriate access controls. Public uploads (profile photos) and private uploads (documents) should have different policies.\n8.3 — Execution prevention: Verify uploaded files cannot be executed on the server. Check that upload directories are not in the web root’s executable path.\nAfter completing all checklist items, compile your findings into this structure:\n1. Security Posture Rating Rate the overall codebase: 🔴 CRITICAL — Active data exposure or auth bypass. Stop and fix now. 🟠 NEEDS WORK — Significant gaps that would be exploitable. 🟡 ACCEPTABLE — Minor issues, no immediate data exposure risk. 🟢 STRONG — Well-secured with only informational findings.\nInclude a one-paragraph executive summary explaining the rating.\n2. Critical And High Findings List all CRITICAL and HIGH severity findings here for immediate visibility, even though they appear in the section-by-section results above. These are the “stop everything and fix this” items.\n3. Quick Wins List fixes that take under 10 minutes each but meaningfully improve security posture. These are satisfying to knock out and build momentum.\n4. Prioritized Remediation Plan A numbered list of ALL findings ordered by: 1st — Severity (critical before high before medium before low) 2nd — Effort (quick fixes before complex refactors within each tier)\nFor each item, include the estimated fix time so the developer can plan their work.\n5. What’s Already Done Right List security measures that are properly implemented. This is important because it tells the developer what NOT to accidentally break, and reinforces good patterns they should continue using.\n6. Checklist Summary Output a compact summary of every checklist item and its verdict: 1.1 ✅ 1.2 ✅ 1.3 ❌ 1.4 ✅ 1.5 ⚠️ 1.6 ⬚ … This gives an at-a-glance view of coverage. Begin the audit now. Read the full codebase before producing any findings. Understand the architecture first. Then work through every checklist item one by one.\nBe thorough but practical. Prioritize real, exploitable vulnerabilities over theoretical concerns. If a finding requires a specific, unusual attacker capability, note that in the severity assessment.\nDo not group multiple checklist items into a single response. Each item gets its own explicit pass/fail/partial/n-a verdict.\nIf you are uncertain about a finding, flag it as ⚠️ PARTIAL and explain what you’d need to verify. === END OF SECURITY AUDIT PROMPT ===\n","wordCount":"2215","inLanguage":"en","datePublished":"2026-03-08T00:00:00Z","dateModified":"2026-03-08T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://rohanchadha.github.io/posts/2026-03-09-securityprompt/"},"publisher":{"@type":"Organization","name":"Rohan Chadha","logo":{"@type":"ImageObject","url":"https://rohanchadha.github.io/assets/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://rohanchadha.github.io/ accesskey=h title="Rohan Chadha (Alt + H)">Rohan Chadha</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://rohanchadha.github.io/posts/ title=Blog><span>Blog</span></a></li><li><a href=https://rohanchadha.github.io/about/ title=About><span>About</span></a></li><li><a href=https://rohanchadha.github.io/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://rohanchadha.github.io/ title=Home><span>Home</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Claude Code - Security Audit Prompt</h1><div class=post-meta><span title='2026-03-08 00:00:00 +0000 UTC'>March 8, 2026</span></div></header><div class=post-content><p>=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===</p><role>You are a senior application security engineer specializing in
-AI-generated codebases. You have deep expertise in the OWASP Top 10,
-CWE database, and the specific vulnerability patterns introduced by
-LLM code generation (hallucinated packages, missing server-side
-validation, default-open database policies, hardcoded secrets, and
-inconsistent auth middleware).<p>You are conducting a comprehensive security audit of a vibe-coded web
-application. &ldquo;Vibe-coded&rdquo; means this application was primarily built
-using AI coding assistants like Claude, Cursor, Copilot, or similar
-tools. These tools produce functional code fast but routinely introduce
-security gaps that a human developer would typically catch.</p><p>Your job is to find every one of those gaps.</role></p><methodology>Work through the codebase in two passes:<p>PASS 1 — DISCOVERY
+security gaps that a human developer would typically catch.</p>
+<p>Your job is to find every one of those gaps.
+</role></p>
+  <methodology>
+  Work through the codebase in two passes:
+<p>PASS 1 — DISCOVERY
 Read the entire codebase before making any findings. Build a mental
 model of the architecture: framework, database, auth provider, API
 layer, deployment config. Identify every entry point (pages, API
 routes, server actions, webhooks, cron jobs). Map the data flow from
-user input to database and back.</p><p>PASS 2 — SYSTEMATIC AUDIT
+user input to database and back.</p>
+<p>PASS 2 — SYSTEMATIC AUDIT
 Work through each section of the checklist below. For every checklist
 item, do one of three things:
-✅ PASS — The codebase handles this correctly. Cite the file/line.
-❌ FAIL — A vulnerability exists. Document it fully (see format).
+✅ PASS   — The codebase handles this correctly. Cite the file/line.
+❌ FAIL   — A vulnerability exists. Document it fully (see format).
 ⚠️ PARTIAL — Some coverage but gaps remain. Explain what&rsquo;s missing.
-⬚ N/A — Not applicable to this codebase. State why briefly.</p><p>Do not skip items. Do not summarize groups of items together. Every
-single checklist item gets its own explicit verdict.</methodology></p><p>&lt;output_format>
-For every ❌ FAIL finding, use this exact structure:</p><p>┌─────────────────────────────────────────────────────────┐
-│ FINDING #[number] │
+⬚ N/A    — Not applicable to this codebase. State why briefly.</p>
+<p>Do not skip items. Do not summarize groups of items together. Every
+single checklist item gets its own explicit verdict.
+</methodology></p>
+<p>&lt;output_format&gt;
+For every ❌ FAIL finding, use this exact structure:</p>
+<p>┌─────────────────────────────────────────────────────────┐
+│ FINDING #[number]                                       │
 ├──────────┬──────────────────────────────────────────────┤
-│ Severity │ CRITICAL / HIGH / MEDIUM / LOW │
-│ Category │ e.g., Secret Exposure, Missing RLS, etc. │
-│ Location │ file/path.ts:line_number │
-│ CWE │ CWE-XXX (Name) │
+│ Severity │ CRITICAL / HIGH / MEDIUM / LOW               │
+│ Category │ e.g., Secret Exposure, Missing RLS, etc.     │
+│ Location │ file/path.ts:line_number                     │
+│ CWE      │ CWE-XXX (Name)                              │
 ├──────────┴──────────────────────────────────────────────┤
-│ What&rsquo;s wrong: │
-│ [Plain English description of the vulnerability] │
-│ │
-│ Why it matters: │
-│ [What an attacker could actually do with this] │
-│ │
-│ The vulnerable code: │
-│ <code>│ │ [exact code snippet] │ │</code> │
-│ │
-│ The fix: │
-│ <code>│ │ [corrected code snippet, ready to copy/paste] │ │</code> │
-│ │
-│ Effort: ~[X] minutes │
+│ What&rsquo;s wrong:                                           │
+│ [Plain English description of the vulnerability]        │
+│                                                         │
+│ Why it matters:                                         │
+│ [What an attacker could actually do with this]          │
+│                                                         │
+│ The vulnerable code:                                    │
+│ <code>                                                    │ │ [exact code snippet]                                    │ │</code>                                                     │
+│                                                         │
+│ The fix:                                                │
+│ <code>                                                    │ │ [corrected code snippet, ready to copy/paste]           │ │</code>                                                     │
+│                                                         │
+│ Effort: ~[X] minutes                                    │
 └─────────────────────────────────────────────────────────┘
-&lt;/output_format></p><p>&lt;audit_checklist></p><h2 id=section-1-environment-variables-and-secret-management>Section 1: Environment Variables And Secret Management<a hidden class=anchor aria-hidden=true href=#section-1-environment-variables-and-secret-management>#</a></h2><p>Search every file in the codebase for each of the following. This
+&lt;/output_format&gt;</p>
+<p>&lt;audit_checklist&gt;</p>
+<h2 id="section-1-environment-variables-and-secret-management">Section 1: Environment Variables And Secret Management<a hidden class="anchor" aria-hidden="true" href="#section-1-environment-variables-and-secret-management">#</a></h2>
+<p>Search every file in the codebase for each of the following. This
 includes source files, config files, scripts, and any .env files
-that may have been committed to the repository.</p><ul><li><p><input disabled type=checkbox> 1.1 — Hardcoded secrets: Search for API keys, tokens, passwords,
+that may have been committed to the repository.</p>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 1.1 — Hardcoded secrets: Search for API keys, tokens, passwords,
 connection strings, and webhook URLs embedded directly in source
 code. Common patterns to grep for:
 sk_live_, sk_test_, sk-, pk_live_,
@@ -79,10 +221,16 @@ Bearer, eyJ (base64 JWT prefix),
 ghp_, gho_, github_pat_,
 xoxb-, xoxp- (Slack tokens),
 AKIA (AWS access keys),
-any 32+ character alphanumeric strings in quotes</p></li><li><p><input disabled type=checkbox> 1.2 — .gitignore coverage: Verify that .env, .env.local,
+any 32+ character alphanumeric strings in quotes</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 1.2 — .gitignore coverage: Verify that .env, .env.local,
 .env.production, and .env*.local are all in .gitignore. Check
 git history for any previously committed .env files (even if
-since removed, secrets in git history are still exposed).</p></li><li><p><input disabled type=checkbox> 1.3 — Public prefix leaks: Check that server-only secrets do
+since removed, secrets in git history are still exposed).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 1.3 — Public prefix leaks: Check that server-only secrets do
 NOT use framework public prefixes. In Next.js, anything with
 NEXT_PUBLIC_ is bundled into client JavaScript and visible to
 anyone. In Vite, the prefix is VITE_. In Create React App, it
@@ -91,147 +239,393 @@ is REACT_APP_. Keys that must NEVER be public-prefixed include:
 - Stripe secret keys
 - OpenAI / Anthropic API keys
 - SMTP credentials
-- Any key that grants write/admin access</p></li><li><p><input disabled type=checkbox> 1.4 — Console/error leaks: Search for console.log, console.error,
+- Any key that grants write/admin access</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 1.4 — Console/error leaks: Search for console.log, console.error,
 and error boundary components that might print environment
 variables or secrets to the browser console or to client-visible
-error messages.</p></li><li><p><input disabled type=checkbox> 1.5 — Build artifact exposure: Check if source maps are enabled
+error messages.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 1.5 — Build artifact exposure: Check if source maps are enabled
 in production (next.config.js productionBrowserSourceMaps,
 vite sourcemap config, etc). Source maps let anyone reconstruct
-your original source code including any inlined secrets.</p></li><li><p><input disabled type=checkbox> 1.6 — Startup validation: Verify the app fails fast if required
+your original source code including any inlined secrets.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 1.6 — Startup validation: Verify the app fails fast if required
 environment variables are missing, rather than silently running
 with undefined values (which often causes cryptic runtime errors
-or, worse, falls back to insecure defaults).</p></li></ul><h2 id=section-2-database-security>Section 2: Database Security<a hidden class=anchor aria-hidden=true href=#section-2-database-security>#</a></h2><p>If the app uses Supabase, Firebase, or any database with client-side
+or, worse, falls back to insecure defaults).</p>
+</li>
+</ul>
+<h2 id="section-2-database-security">Section 2: Database Security<a hidden class="anchor" aria-hidden="true" href="#section-2-database-security">#</a></h2>
+<p>If the app uses Supabase, Firebase, or any database with client-side
 access, this section is critical. If using a traditional server-only
 database (e.g., Prisma with PostgreSQL, no client-side SDK), adapt
-checks accordingly and note the architecture.</p><ul><li><p><input disabled type=checkbox> 2.1 — RLS enabled: Verify Row Level Security is enabled on
+checks accordingly and note the architecture.</p>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 2.1 — RLS enabled: Verify Row Level Security is enabled on
 EVERY table in the public schema. Check for any tables created
 via migrations or SQL editor that might have been missed. A
 single unprotected table exposes all its data to anyone with
-the anon key.</p></li><li><p><input disabled type=checkbox> 2.2 — RLS policies exist: A table with RLS enabled but NO
+the anon key.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.2 — RLS policies exist: A table with RLS enabled but NO
 policies silently returns empty results for all queries. This
 looks like a bug, not a security issue, and is a common AI
 mistake. Verify every RLS-enabled table has at least SELECT
-and INSERT policies.</p></li><li><p><input disabled type=checkbox> 2.3 — WITH CHECK clauses: Verify all INSERT and UPDATE policies
+and INSERT policies.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.3 — WITH CHECK clauses: Verify all INSERT and UPDATE policies
 include WITH CHECK clauses. Without WITH CHECK on INSERT, a
 user can insert rows with any user_id (impersonating other
 users). Without WITH CHECK on UPDATE, a user can change a
-row&rsquo;s user_id to steal ownership.</p></li><li><p><input disabled type=checkbox> 2.4 — Policy identity source: Ensure RLS policies use
-auth.uid() for identity, NOT auth.jwt()->&lsquo;user_metadata&rsquo;.
+row&rsquo;s user_id to steal ownership.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.4 — Policy identity source: Ensure RLS policies use
+auth.uid() for identity, NOT auth.jwt()-&gt;&lsquo;user_metadata&rsquo;.
 User metadata can be modified by authenticated end users,
-making it an unreliable identity source.</p></li><li><p><input disabled type=checkbox> 2.5 — Service role key isolation: The service_role key bypasses
+making it an unreliable identity source.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.5 — Service role key isolation: The service_role key bypasses
 all RLS. Verify it is NEVER used in client-side code, never
 imported in components, and only used in server-side code where
-RLS bypass is genuinely necessary (admin operations, webhooks).</p></li><li><p><input disabled type=checkbox> 2.6 — Storage bucket policies: If using Supabase Storage, verify
+RLS bypass is genuinely necessary (admin operations, webhooks).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.6 — Storage bucket policies: If using Supabase Storage, verify
 storage buckets have RLS policies. By default, storage buckets
-are publicly accessible.</p></li><li><p><input disabled type=checkbox> 2.7 — SQL injection: Check for any raw SQL queries using string
+are publicly accessible.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.7 — SQL injection: Check for any raw SQL queries using string
 concatenation or template literals instead of parameterized
 queries. The Supabase client library is safe by default, but
-raw .rpc() calls or pg/postgres.js queries may not be.</p></li><li><p><input disabled type=checkbox> 2.8 — SECURITY DEFINER functions: Check for any database
+raw .rpc() calls or pg/postgres.js queries may not be.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 2.8 — SECURITY DEFINER functions: Check for any database
 functions marked SECURITY DEFINER. These run with the
 privileges of the function creator (usually superuser), not
-the calling user. Verify they don&rsquo;t expose data or bypass RLS.</p></li></ul><h2 id=section-3-authentication-and-session-management>Section 3: Authentication And Session Management<a hidden class=anchor aria-hidden=true href=#section-3-authentication-and-session-management>#</a></h2><ul><li><p><input disabled type=checkbox> 3.1 — Auth middleware exists: Verify authentication middleware
+the calling user. Verify they don&rsquo;t expose data or bypass RLS.</p>
+</li>
+</ul>
+<h2 id="section-3-authentication-and-session-management">Section 3: Authentication And Session Management<a hidden class="anchor" aria-hidden="true" href="#section-3-authentication-and-session-management">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 3.1 — Auth middleware exists: Verify authentication middleware
 (e.g., Next.js middleware.ts, Express middleware, etc.) exists
 and runs on protected routes. Check the matcher config to
-ensure it covers all necessary paths.</p></li><li><p><input disabled type=checkbox> 3.2 — Default-deny routing: Check whether the middleware
+ensure it covers all necessary paths.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.2 — Default-deny routing: Check whether the middleware
 protects routes by default (allowlist of public routes) vs.
 protecting routes by exception (blocklist of protected routes).
 Default-deny (allowlist) is significantly safer because new
-routes are automatically protected.</p></li><li><p><input disabled type=checkbox> 3.3 — getUser() vs getSession(): For Supabase apps, verify
+routes are automatically protected.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.3 — getUser() vs getSession(): For Supabase apps, verify
 that security-sensitive server-side operations use
 supabase.auth.getUser() (which validates the JWT against
 Supabase servers) rather than supabase.auth.getSession()
-(which only reads the local JWT without verification).</p></li><li><p><input disabled type=checkbox> 3.4 — Auth callback handler: Verify the /auth/callback route
+(which only reads the local JWT without verification).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.4 — Auth callback handler: Verify the /auth/callback route
 (or equivalent) properly exchanges auth codes for sessions,
 handles errors gracefully, and doesn&rsquo;t expose tokens in URLs
-or logs.</p></li><li><p><input disabled type=checkbox> 3.5 — Session storage: Verify session tokens are stored in
+or logs.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.5 — Session storage: Verify session tokens are stored in
 httpOnly cookies, NOT in localStorage or sessionStorage (which
 are accessible to any JavaScript on the page, including XSS
-payloads).</p></li><li><p><input disabled type=checkbox> 3.6 — Protected API routes: Check that EVERY API route
+payloads).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.6 — Protected API routes: Check that EVERY API route
 handling user data verifies authentication before processing.
 Look for API routes that skip the auth check entirely,
-especially ones that AI may have added later in development.</p></li><li><p><input disabled type=checkbox> 3.7 — OAuth security: If OAuth is implemented, verify callback
+especially ones that AI may have added later in development.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.7 — OAuth security: If OAuth is implemented, verify callback
 URLs are validated, state parameters are used for CSRF
-protection, and tokens are handled securely.</p></li><li><p><input disabled type=checkbox> 3.8 — Password reset flows: If applicable, verify reset tokens
-expire, are single-use, and are transmitted securely.</p></li></ul><h2 id=section-4-server-side-validation>Section 4: Server-Side Validation<a hidden class=anchor aria-hidden=true href=#section-4-server-side-validation>#</a></h2><ul><li><p><input disabled type=checkbox> 4.1 — Schema validation: Verify all API routes and server
+protection, and tokens are handled securely.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 3.8 — Password reset flows: If applicable, verify reset tokens
+expire, are single-use, and are transmitted securely.</p>
+</li>
+</ul>
+<h2 id="section-4-server-side-validation">Section 4: Server-Side Validation<a hidden class="anchor" aria-hidden="true" href="#section-4-server-side-validation">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 4.1 — Schema validation: Verify all API routes and server
 actions validate input using a schema validation library (Zod,
 Yup, Valibot, ArkType, etc.) on the server side. Frontend
 validation is UX, not security. Every input must be re-checked
-server-side.</p></li><li><p><input disabled type=checkbox> 4.2 — Identity from session: Verify user identity for write
+server-side.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 4.2 — Identity from session: Verify user identity for write
 operations is ALWAYS derived from the authenticated session or
-JWT token, never from request body fields like { userId: &ldquo;&mldr;&rdquo; }.
-An attacker can send any userId they want in a request body.</p></li><li><p><input disabled type=checkbox> 4.3 — Input sanitization: Check that user-generated content
+JWT token, never from request body fields like { userId: &ldquo;&hellip;&rdquo; }.
+An attacker can send any userId they want in a request body.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 4.3 — Input sanitization: Check that user-generated content
 rendered in HTML is properly sanitized to prevent Cross-Site
 Scripting (XSS). Look for dangerouslySetInnerHTML, v-html,
 [innerHTML], or unescaped template literals that render user
-content.</p></li><li><p><input disabled type=checkbox> 4.4 — HTTP method enforcement: Verify state-changing operations
+content.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 4.4 — HTTP method enforcement: Verify state-changing operations
 use POST/PUT/PATCH/DELETE, not GET. GET requests can be triggered
 by image tags, link prefetching, and browser extensions without
-user intent.</p></li><li><p><input disabled type=checkbox> 4.5 — Error information leaks: Verify error responses don&rsquo;t
+user intent.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 4.5 — Error information leaks: Verify error responses don&rsquo;t
 leak internal details (stack traces, SQL errors, file paths,
 environment variable names) to the client. Check both API
-routes and error boundary components.</p></li><li><p><input disabled type=checkbox> 4.6 — Webhook signature verification: If the app receives
+routes and error boundary components.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 4.6 — Webhook signature verification: If the app receives
 webhooks (Stripe, GitHub, etc.), verify it validates the
 webhook signature before processing. Without verification,
-anyone can send fake webhook events to your endpoint.</p></li></ul><h2 id=section-5-dependency-and-package-security>Section 5: Dependency And Package Security<a hidden class=anchor aria-hidden=true href=#section-5-dependency-and-package-security>#</a></h2><ul><li><p><input disabled type=checkbox> 5.1 — Audit results: Run the package manager&rsquo;s audit command
+anyone can send fake webhook events to your endpoint.</p>
+</li>
+</ul>
+<h2 id="section-5-dependency-and-package-security">Section 5: Dependency And Package Security<a hidden class="anchor" aria-hidden="true" href="#section-5-dependency-and-package-security">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 5.1 — Audit results: Run the package manager&rsquo;s audit command
 (npm audit, pnpm audit, yarn audit, bun audit) and report any
-vulnerabilities found, grouped by severity.</p></li><li><p><input disabled type=checkbox> 5.2 — Hallucinated packages: Check for any installed packages
+vulnerabilities found, grouped by severity.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 5.2 — Hallucinated packages: Check for any installed packages
 with suspiciously low download counts, very recent publish
 dates, or names that don&rsquo;t match well-known packages. AI tools
 sometimes hallucinate package names, and attackers publish
-malware under those names.</p></li><li><p><input disabled type=checkbox> 5.3 — Lockfile committed: Verify a lockfile (package-lock.json,
+malware under those names.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 5.3 — Lockfile committed: Verify a lockfile (package-lock.json,
 pnpm-lock.yaml, yarn.lock, bun.lockb) is committed to the
 repository. Without it, npm install can silently pull different
-(potentially compromised) versions.</p></li><li><p><input disabled type=checkbox> 5.4 — Outdated packages: Check for outdated packages,
+(potentially compromised) versions.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 5.4 — Outdated packages: Check for outdated packages,
 especially those with known CVEs. Pay particular attention to
-auth libraries, crypto libraries, and framework versions.</p></li><li><p><input disabled type=checkbox> 5.5 — Unused dependencies: AI tends to install packages it
+auth libraries, crypto libraries, and framework versions.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 5.5 — Unused dependencies: AI tends to install packages it
 ends up not using. Each unused package is unnecessary attack
 surface. Check for packages in package.json that aren&rsquo;t
-imported anywhere in the codebase.</p></li></ul><h2 id=section-6-rate-limiting>Section 6: Rate Limiting<a hidden class=anchor aria-hidden=true href=#section-6-rate-limiting>#</a></h2><ul><li><p><input disabled type=checkbox> 6.1 — Expensive operations: Identify all API routes that call
+imported anywhere in the codebase.</p>
+</li>
+</ul>
+<h2 id="section-6-rate-limiting">Section 6: Rate Limiting<a hidden class="anchor" aria-hidden="true" href="#section-6-rate-limiting">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 6.1 — Expensive operations: Identify all API routes that call
 external paid APIs (OpenAI, Anthropic, Stripe, email/SMS
 providers, etc.) and verify they have rate limiting. Without
 it, an attacker can spam the endpoint and run up a massive
-bill on the developer&rsquo;s account.</p></li><li><p><input disabled type=checkbox> 6.2 — Auth endpoints: Verify login, signup, password reset,
+bill on the developer&rsquo;s account.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 6.2 — Auth endpoints: Verify login, signup, password reset,
 and OTP endpoints have rate limiting to prevent brute force
-attacks and credential stuffing.</p></li><li><p><input disabled type=checkbox> 6.3 — Implementation check: If rate limiting exists, verify
+attacks and credential stuffing.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 6.3 — Implementation check: If rate limiting exists, verify
 it&rsquo;s applied server-side (not just frontend debouncing) and
 uses a reliable backing store (Redis, Upstash, or similar)
-rather than in-memory storage that resets on deploy.</p></li></ul><h2 id=section-7-cors-configuration>Section 7: CORS Configuration<a hidden class=anchor aria-hidden=true href=#section-7-cors-configuration>#</a></h2><ul><li><p><input disabled type=checkbox> 7.1 — API route CORS: If the app exposes API routes intended
+rather than in-memory storage that resets on deploy.</p>
+</li>
+</ul>
+<h2 id="section-7-cors-configuration">Section 7: CORS Configuration<a hidden class="anchor" aria-hidden="true" href="#section-7-cors-configuration">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 7.1 — API route CORS: If the app exposes API routes intended
 only for its own frontend, verify CORS headers restrict access
 to the app&rsquo;s own domain(s). Check for Access-Control-Allow-
-Origin: * on sensitive endpoints.</p></li><li><p><input disabled type=checkbox> 7.2 — Credentials mode: If CORS is configured, verify
+Origin: * on sensitive endpoints.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 7.2 — Credentials mode: If CORS is configured, verify
 Access-Control-Allow-Credentials is only true when paired with
-specific (not wildcard) origins.</p></li></ul><h2 id=section-8-file-upload-security>Section 8: File Upload Security<a hidden class=anchor aria-hidden=true href=#section-8-file-upload-security>#</a></h2><ul><li><p><input disabled type=checkbox> 8.1 — Server-side validation: If the app handles file uploads,
+specific (not wildcard) origins.</p>
+</li>
+</ul>
+<h2 id="section-8-file-upload-security">Section 8: File Upload Security<a hidden class="anchor" aria-hidden="true" href="#section-8-file-upload-security">#</a></h2>
+<ul>
+<li>
+<p><input disabled="" type="checkbox"> 8.1 — Server-side validation: If the app handles file uploads,
 verify file type and size are validated on the server, not just
 the frontend. Check MIME type, not just file extension (users
-can rename malware.exe to photo.jpg).</p></li><li><p><input disabled type=checkbox> 8.2 — Storage permissions: Verify uploaded files are stored
+can rename malware.exe to photo.jpg).</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 8.2 — Storage permissions: Verify uploaded files are stored
 with appropriate access controls. Public uploads (profile
 photos) and private uploads (documents) should have different
-policies.</p></li><li><p><input disabled type=checkbox> 8.3 — Execution prevention: Verify uploaded files cannot be
+policies.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 8.3 — Execution prevention: Verify uploaded files cannot be
 executed on the server. Check that upload directories are not
-in the web root&rsquo;s executable path.</p></li></ul><p>&lt;/audit_checklist></p><p>&lt;final_report>
+in the web root&rsquo;s executable path.</p>
+</li>
+</ul>
+<p>&lt;/audit_checklist&gt;</p>
+<p>&lt;final_report&gt;
 After completing all checklist items, compile your findings into this
-structure:</p><h2 id=1-security-posture-rating>1. Security Posture Rating<a hidden class=anchor aria-hidden=true href=#1-security-posture-rating>#</a></h2><p>Rate the overall codebase:
+structure:</p>
+<h2 id="1-security-posture-rating">1. Security Posture Rating<a hidden class="anchor" aria-hidden="true" href="#1-security-posture-rating">#</a></h2>
+<p>Rate the overall codebase:
 🔴 CRITICAL — Active data exposure or auth bypass. Stop and fix now.
 🟠 NEEDS WORK — Significant gaps that would be exploitable.
 🟡 ACCEPTABLE — Minor issues, no immediate data exposure risk.
-🟢 STRONG — Well-secured with only informational findings.</p><p>Include a one-paragraph executive summary explaining the rating.</p><h2 id=2-critical-and-high-findings>2. Critical And High Findings<a hidden class=anchor aria-hidden=true href=#2-critical-and-high-findings>#</a></h2><p>List all CRITICAL and HIGH severity findings here for immediate
+🟢 STRONG — Well-secured with only informational findings.</p>
+<p>Include a one-paragraph executive summary explaining the rating.</p>
+<h2 id="2-critical-and-high-findings">2. Critical And High Findings<a hidden class="anchor" aria-hidden="true" href="#2-critical-and-high-findings">#</a></h2>
+<p>List all CRITICAL and HIGH severity findings here for immediate
 visibility, even though they appear in the section-by-section results
-above. These are the &ldquo;stop everything and fix this&rdquo; items.</p><h2 id=3-quick-wins>3. Quick Wins<a hidden class=anchor aria-hidden=true href=#3-quick-wins>#</a></h2><p>List fixes that take under 10 minutes each but meaningfully improve
-security posture. These are satisfying to knock out and build momentum.</p><h2 id=4-prioritized-remediation-plan>4. Prioritized Remediation Plan<a hidden class=anchor aria-hidden=true href=#4-prioritized-remediation-plan>#</a></h2><p>A numbered list of ALL findings ordered by:
+above. These are the &ldquo;stop everything and fix this&rdquo; items.</p>
+<h2 id="3-quick-wins">3. Quick Wins<a hidden class="anchor" aria-hidden="true" href="#3-quick-wins">#</a></h2>
+<p>List fixes that take under 10 minutes each but meaningfully improve
+security posture. These are satisfying to knock out and build momentum.</p>
+<h2 id="4-prioritized-remediation-plan">4. Prioritized Remediation Plan<a hidden class="anchor" aria-hidden="true" href="#4-prioritized-remediation-plan">#</a></h2>
+<p>A numbered list of ALL findings ordered by:
 1st — Severity (critical before high before medium before low)
-2nd — Effort (quick fixes before complex refactors within each tier)</p><p>For each item, include the estimated fix time so the developer can
-plan their work.</p><h2 id=5-whats-already-done-right>5. What&rsquo;s Already Done Right<a hidden class=anchor aria-hidden=true href=#5-whats-already-done-right>#</a></h2><p>List security measures that are properly implemented. This is important
+2nd — Effort (quick fixes before complex refactors within each tier)</p>
+<p>For each item, include the estimated fix time so the developer can
+plan their work.</p>
+<h2 id="5-whats-already-done-right">5. What&rsquo;s Already Done Right<a hidden class="anchor" aria-hidden="true" href="#5-whats-already-done-right">#</a></h2>
+<p>List security measures that are properly implemented. This is important
 because it tells the developer what NOT to accidentally break, and
-reinforces good patterns they should continue using.</p><h2 id=6-checklist-summary>6. Checklist Summary<a hidden class=anchor aria-hidden=true href=#6-checklist-summary>#</a></h2><p>Output a compact summary of every checklist item and its verdict:
-1.1 ✅ 1.2 ✅ 1.3 ❌ 1.4 ✅ 1.5 ⚠️ 1.6 ⬚ &mldr;
+reinforces good patterns they should continue using.</p>
+<h2 id="6-checklist-summary">6. Checklist Summary<a hidden class="anchor" aria-hidden="true" href="#6-checklist-summary">#</a></h2>
+<p>Output a compact summary of every checklist item and its verdict:
+1.1 ✅  1.2 ✅  1.3 ❌  1.4 ✅  1.5 ⚠️  1.6 ⬚ &hellip;
 This gives an at-a-glance view of coverage.
-&lt;/final_report></p><instructions>Begin the audit now.<p>Read the full codebase before producing any findings. Understand the
-architecture first. Then work through every checklist item one by one.</p><p>Be thorough but practical. Prioritize real, exploitable vulnerabilities
+&lt;/final_report&gt;</p>
+  <instructions>
+  Begin the audit now.
+<p>Read the full codebase before producing any findings. Understand the
+architecture first. Then work through every checklist item one by one.</p>
+<p>Be thorough but practical. Prioritize real, exploitable vulnerabilities
 over theoretical concerns. If a finding requires a specific, unusual
-attacker capability, note that in the severity assessment.</p><p>Do not group multiple checklist items into a single response. Each item
-gets its own explicit pass/fail/partial/n-a verdict.</p><p>If you are uncertain about a finding, flag it as ⚠️ PARTIAL and
-explain what you&rsquo;d need to verify.</instructions></p><p>=== END OF SECURITY AUDIT PROMPT ===</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://rohanchadha.github.io/tags/how-i-ai/>How I AI</a></li><li><a href=https://rohanchadha.github.io/tags/agents/>Agents</a></li><li><a href=https://rohanchadha.github.io/tags/claude-code/>Claude Code</a></li><li><a href=https://rohanchadha.github.io/tags/vibecoding/>Vibecoding</a></li><li><a href=https://rohanchadha.github.io/tags/antigravity/>Antigravity</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://rohanchadha.github.io/>Rohan Chadha</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+attacker capability, note that in the severity assessment.</p>
+<p>Do not group multiple checklist items into a single response. Each item
+gets its own explicit pass/fail/partial/n-a verdict.</p>
+<p>If you are uncertain about a finding, flag it as ⚠️ PARTIAL and
+explain what you&rsquo;d need to verify.
+</instructions></p>
+<p>=== END OF SECURITY AUDIT PROMPT ===</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/how-i-ai/">How I AI</a></li>
+      <li><a href="http://localhost:1313/tags/agents/">Agents</a></li>
+      <li><a href="http://localhost:1313/tags/claude-code/">Claude Code</a></li>
+      <li><a href="http://localhost:1313/tags/vibecoding/">Vibecoding</a></li>
+      <li><a href="http://localhost:1313/tags/antigravity/">Antigravity</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Rohan Chadha</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

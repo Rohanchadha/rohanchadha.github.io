@@ -10,7 +10,9 @@ params:
     Title: "\U0001F44B Welcome to my blog"
     Content: >-
       Hey there, I'm Rohan. I am an engineer turned Product Manager.
-      I use this space to document my continuous learnings and share my insights.  
+      I use this space to capture my musings, share my learnings, dumping frameworks/skills.md's from X threads  🙂
+
+
       
   socialIcons:
     - name: email

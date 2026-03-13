@@ -4,10 +4,13 @@ layout: "simple"
 
 <div class="first-entry" style="margin-bottom: 2rem;">
   <div class="entry-header">
-    <h2>About</h2>
+    <h2>Some Things about me</h2>
   </div>
   <div class="entry-content" style="opacity: 1; -webkit-line-clamp: unset;">
-    AI-Native Product & Program Manager with 7+ years of experience leading complex, engineering-heavy initiatives. Proven track record in architecting RAG-based systems and Voice AI solutions that drive business growth and internal efficiency. Deeply immersed in the evolving LLM landscape, from Claude Code to agent first workflows. Leveraging cutting-edge automations to 10x internal team’s velocity & accelerate product adoption
+<ul>
+<li> I grew up in Amritsar. Did my undergrad from NIT Jalandhar + MBA from IIFT. My early career was in software engineering & later moved to Product.
+<li> I love movies & I like doing hard things. Musician by hobby (been playing guitar from last 12 years)
+<li> Currently self-learning vibe coding, vibe designing, AI protoptyping & whatever the hell these AI Labs keep launching
   </div>
 </div>
 
@@ -16,37 +19,37 @@ layout: "simple"
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
   <div class="post-entry">
     <div class="entry-header">
-      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Onboarding Revamp</h2>
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">GMV Expansion</h2>
     </div>
-    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
-      Reduced time-to-value from 14 days to 5 days through guided setup, milestone nudges, and lifecycle triggers.
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary); -webkit-line-clamp: 3;">
+      Built zingbus marketplace business from scratch. Mission critical integrations with Travel Aggregators (GDS)
     </div>
     <div class="entry-footer">
-      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+28% activation</a></span>
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+$4 Mn Annualized GMV</a></span>
     </div>
   </div>
 
   <div class="post-entry">
     <div class="entry-header">
-      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Insights Dashboard</h2>
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Supply Dashboard</h2>
     </div>
-    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
-      Launched role-based analytics for SMB customers after 22 discovery interviews and 3 rapid prototype rounds.
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary); -webkit-line-clamp: 3;">
+      Launched Supply Panels for Bus Operators. Ability to manage inventory, pricing, booking policies
     </div>
     <div class="entry-footer">
-      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+19 NPS points</a></span>
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+6% Gross Margin</a></span>
     </div>
   </div>
 
   <div class="post-entry">
     <div class="entry-header">
-      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Pricing & Packaging</h2>
+      <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">WhatsApp Bot</h2>
     </div>
-    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary);">
-      Introduced usage-based tiers and guardrails that improved expansion motion without adding sales friction.
+    <div class="entry-content" style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 1rem; color: var(--secondary); -webkit-line-clamp: 3;">
+      Implemented whatsapp chatbot decreasing first response time by 83% & automating 71% inbound chat volume
     </div>
     <div class="entry-footer">
-      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">+17% ARR expansion</a></span>
+      <span class="post-tags"><a href="#" style="background: rgba(196, 86, 44, 0.08); color: var(--brand); font-weight: 600; font-size: 0.75rem; padding: 0.2rem 0.8rem;">71% chat automation</a></span>
     </div>
   </div>
 </div>
@@ -55,20 +58,20 @@ layout: "simple"
   <h2 style="font-family: Fraunces; font-size: 1.8rem; margin: 0 0 1rem;">Toolkit</h2>
   <div class="post-tags" style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
     <span class="toolkit-pill">Product Strategy</span>
-    <span class="toolkit-pill">User Research</span>
-    <span class="toolkit-pill">Roadmapping</span>
+    <span class="toolkit-pill">Roadmaps</span>
+    <span class="toolkit-pill">Claude Code</span>
     <span class="toolkit-pill">A/B Testing</span>
-    <span class="toolkit-pill">SQL + Analytics</span>
-    <span class="toolkit-pill">Cross-functional Leadership</span>
+    <span class="toolkit-pill">SQL</span>
+    <span class="toolkit-pill">B2C/B2B Apps</span>
+    <span class="toolkit-pill">AI Agents</span>
+    <span class="toolkit-pill">Growth</span>
+    <span class="toolkit-pill">Engagement</span>
+    <span class="toolkit-pill">User Interviews</span>
+    <span class="toolkit-pill">Vibe Coding</span>
+    <span class="toolkit-pill">AI Prototyping</span>
+    <span class="toolkit-pill">GenAI Products</span>
   </div>
 </div>
-
-**Some things about me:**
-* Grew up in Amritsar
-* Graduated from NIT Jalandhar + IIFT
-* Early career in software engineering, later turned PM.
-* I love movies & I like doing hard things
-* Currently self-learning vibe coding & piano
 
 **Here's where I've worked so far 👇**:
 * Product & Data @ Info Edge (shiksha.com) - 160 Cr revenue, 500M+ annual visits

@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Product Management on Rohan Chadha</title><link>https://rohanchadha.github.io/tags/product-management/</link><description>Recent content in Product Management on Rohan Chadha</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://rohanchadha.github.io/tags/product-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Instamart shopping lists</title><link>https://rohanchadha.github.io/posts/2025-11-12-swiggyshoppinglists/</link><pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2025-11-12-swiggyshoppinglists/</guid><description>&lt;p&gt;I remember reading an X thread almost a year back about Instamart launching &lt;strong&gt;Shopping lists&lt;/strong&gt; feature in beta.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Swiggy Co-Founder&amp;rsquo;s tweet on Shopping list pilot" loading="lazy" src="https://rohanchadha.github.io/posts/2025-11-12-swiggyshoppinglists/TwitterPost.png"&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product Management on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/product-management/</link>
+    <description>Recent content in Product Management on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instamart shopping lists</title>
+      <link>http://localhost:1313/posts/2025-11-12-swiggyshoppinglists/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-12-swiggyshoppinglists/</guid>
+      <description>&lt;p&gt;I remember reading an X thread almost a year back about Instamart launching &lt;strong&gt;Shopping lists&lt;/strong&gt; feature in beta.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Swiggy Co-Founder&amp;rsquo;s tweet on Shopping list pilot&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/2025-11-12-swiggyshoppinglists/TwitterPost.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I hate ordering groceries as much as the next person &amp;amp; I had never noticed this feature on Swiggy.
 Not until today. So, naturally I tried using it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Some background on how I order:&lt;/strong&gt;&lt;/p&gt;
@@ -8,10 +23,20 @@ Not until today. So, naturally I tried using it.&lt;/p&gt;
 &lt;li&gt;Most (if not all) of my AOV gte Rs 500 orders include repeated SKUs (Yogurt, Paneer, Eggs, veggies, fruits, etc.)&lt;/li&gt;
 &lt;li&gt;I also don&amp;rsquo;t switch brands often. I&amp;rsquo;m not a bargain hunter, I&amp;rsquo;ve come to like some brands &amp;amp; even Swiggy shows those as &amp;ldquo;Previously Bought&amp;rdquo; &amp;amp; those are the ones I end up ordering.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So, I&amp;rsquo;m pretty much a Instamart power user. Shopping Lists could be a super time saving feature for me. &lt;em&gt;&lt;strong&gt;But it missed quite a few beats. Let&amp;rsquo;s deep dive into it 👇&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>How would I improve Gmail?</title><link>https://rohanchadha.github.io/posts/2025-11-01-improvegmail/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2025-11-01-improvegmail/</guid><description>&lt;p&gt;Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp;amp; I just realized the whole process wasn&amp;rsquo;t as smooth as it could be.&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;m pretty much a Instamart power user. Shopping Lists could be a super time saving feature for me. &lt;em&gt;&lt;strong&gt;But it missed quite a few beats. Let&amp;rsquo;s deep dive into it 👇&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How would I improve Gmail?</title>
+      <link>http://localhost:1313/posts/2025-11-01-improvegmail/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-01-improvegmail/</guid>
+      <description>&lt;p&gt;Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp;amp; I just realized the whole process wasn&amp;rsquo;t as smooth as it could be.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; -&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp;amp; 5 from Amritsar) - A total of 6 flight bookings &amp;amp; 4 hotel bookings&lt;/li&gt;
 &lt;li&gt;Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts. All in all I ended up using 5 providers for making bookings&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;On to the problem. What was I doing?&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;On to the problem. What was I doing?&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

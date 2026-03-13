@@ -1,24 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Antigravity on Rohan Chadha</title><link>https://rohanchadha.github.io/tags/antigravity/</link><description>Recent content in Antigravity on Rohan Chadha</description><generator>Hugo -- 0.150.0</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://rohanchadha.github.io/tags/antigravity/index.xml" rel="self" type="application/rss+xml"/><item><title>Stitch MCP for Vibe design</title><link>https://rohanchadha.github.io/posts/2026-03-09-stitchmcp/</link><pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-09-stitchmcp/</guid><description>&lt;h2 id="how-to-use-stitch"&gt;How to use Stitch&lt;/h2&gt;</description></item><item><title>Claude Code - Security Audit Prompt</title><link>https://rohanchadha.github.io/posts/2026-03-09-securityprompt/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-09-securityprompt/</guid><description>&lt;p&gt;=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===&lt;/p&gt;
-&lt;role&gt;
-You are a senior application security engineer specializing in
-AI-generated codebases. You have deep expertise in the OWASP Top 10,
-CWE database, and the specific vulnerability patterns introduced by
-LLM code generation (hallucinated packages, missing server-side
-validation, default-open database policies, hardcoded secrets, and
-inconsistent auth middleware).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Antigravity on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/antigravity/</link>
+    <description>Recent content in Antigravity on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/antigravity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code - Security Audit Prompt</title>
+      <link>http://localhost:1313/posts/2026-03-09-securityprompt/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-09-securityprompt/</guid>
+      <description>&lt;p&gt;=== SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===&lt;/p&gt;
+  &lt;role&gt;
+  You are a senior application security engineer specializing in
+  AI-generated codebases. You have deep expertise in the OWASP Top 10,
+  CWE database, and the specific vulnerability patterns introduced by
+  LLM code generation (hallucinated packages, missing server-side
+  validation, default-open database policies, hardcoded secrets, and
+  inconsistent auth middleware).
 &lt;p&gt;You are conducting a comprehensive security audit of a vibe-coded web
 application. &amp;ldquo;Vibe-coded&amp;rdquo; means this application was primarily built
 using AI coding assistants like Claude, Cursor, Copilot, or similar
 tools. These tools produce functional code fast but routinely introduce
-security gaps that a human developer would typically catch.&lt;/p&gt;</description></item><item><title>Vibe Coding - Good Practices</title><link>https://rohanchadha.github.io/posts/2026-03-08-goodpractice/</link><pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-08-goodpractice/</guid><description>&lt;ol&gt;
+security gaps that a human developer would typically catch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vibe Coding - Good Practices</title>
+      <link>http://localhost:1313/posts/2026-03-08-goodpractice/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-08-goodpractice/</guid>
+      <description>&lt;ol&gt;
 &lt;li&gt;A handy good starter AGENTS.md with 3-layer architecture - Directive, Orchestration, Execution&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;Link to file - &lt;a href=""&gt;AGENTS.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to file - &lt;a href=&#34;&#34;&gt;AGENTS.md&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Add this file in directory, reference it in chat &amp;ndash;&amp;gt; @AGENTS.md instantiate&lt;/li&gt;
 &lt;li&gt;It&amp;rsquo;ll just set up the folder structure as mentioned in the file&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start="2"&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Generate an AGENTS.md file at the end (or a logical stop point) of a vibecoding session&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -26,18 +48,39 @@ security gaps that a human developer would typically catch.&lt;/p&gt;</descripti
 &lt;li&gt;You can use below prompt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Could you create a Gemini.md that effectively encapsulates what this app is, everything we&amp;rsquo;ve done so far, and then provides instructions for future models in case we need to pass this off.&lt;/p&gt;</description></item><item><title>Claude Code - Prompt for creating a plan</title><link>https://rohanchadha.github.io/posts/2026-03-08-claudestarterprompt/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-08-claudestarterprompt/</guid><description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;A starter prompt I picked up from Nick Saraev&amp;rsquo;s &lt;a href="https://www.youtube.com/watch?v=gcuR_-rzlDw"&gt;video&lt;/a&gt; to generate a plan&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Could you create a Gemini.md that effectively encapsulates what this app is, everything we&amp;rsquo;ve done so far, and then provides instructions for future models in case we need to pass this off.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude Code - Prompt for creating a plan</title>
+      <link>http://localhost:1313/posts/2026-03-08-claudestarterprompt/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-08-claudestarterprompt/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;A starter prompt I picked up from Nick Saraev&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=gcuR_-rzlDw&#34;&gt;video&lt;/a&gt; to generate a plan&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Used Opus 4.6 in &lt;strong&gt;Plan Mode&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Took the Plan generated by Claude &amp;amp; then gave it to Gemini 3.1 to start the design&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="planning-prompt-given-to-claude-code"&gt;Planning Prompt (given to Claude Code)&lt;/h2&gt;
+&lt;h2 id=&#34;planning-prompt-given-to-claude-code&#34;&gt;Planning Prompt (given to Claude Code)&lt;/h2&gt;
 &lt;p&gt;You&amp;rsquo;re a world-class website designer with 15 years of experience designing high-quality, award-winning websites for Apple and Dribbble.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;d like to build a full-stack SaaS client dashboard app for our &lt;strong&gt;content writing business&lt;/strong&gt;. It&amp;rsquo;s very important that you get this right. Our career depends on it.&lt;/p&gt;</description></item><item><title>Re-Design prompt</title><link>https://rohanchadha.github.io/posts/2026-03-08-redesignprompt/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-08-redesignprompt/</guid><description>&lt;p&gt;Ok, if you have a dashboard/website that you want to redesign based on a design inspiration from figma or dribbble, found the below prompt to work well.&lt;/p&gt;
-&lt;h3 id="the-prompt"&gt;The Prompt&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;d like to build a full-stack SaaS client dashboard app for our &lt;strong&gt;content writing business&lt;/strong&gt;. It&amp;rsquo;s very important that you get this right. Our career depends on it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Re-Design prompt</title>
+      <link>http://localhost:1313/posts/2026-03-08-redesignprompt/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-08-redesignprompt/</guid>
+      <description>&lt;p&gt;Ok, if you have a dashboard/website that you want to redesign based on a design inspiration from figma or dribbble, found the below prompt to work well.&lt;/p&gt;
+&lt;h3 id=&#34;the-prompt&#34;&gt;The Prompt&lt;/h3&gt;
 &lt;p&gt;hey, this is great. I&amp;rsquo;d now like to change the design significantly. You should do the vast majority of your work in Tailwind or whatever style sheets that you&amp;rsquo;re currently using to build this.&lt;/p&gt;
-&lt;p&gt;In short, I think the design right now is very basic and super simple. I want you to add significantly more complexity using things like cool mouse hover effects on navbar elements on the left hand side. I want you to add really high quality icons. I&amp;rsquo;d like you to modernize the design significantly. I want you to try different fonts, higher quality fonts. I want you to use cutting edge, new ones that are on Google Fonts, etc. I want you to use some placeholder images so that the design feels alive, and I also want you to significantly upgrade the graph.&lt;/p&gt;</description></item><item><title>Skills in Antigravity</title><link>https://rohanchadha.github.io/posts/2026-03-04-antigravityskills/</link><pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-04-antigravityskills/</guid><description>&lt;p&gt;&lt;strong&gt;What are skills?&lt;/strong&gt;
+&lt;p&gt;In short, I think the design right now is very basic and super simple. I want you to add significantly more complexity using things like cool mouse hover effects on navbar elements on the left hand side. I want you to add really high quality icons. I&amp;rsquo;d like you to modernize the design significantly. I want you to try different fonts, higher quality fonts. I want you to use cutting edge, new ones that are on Google Fonts, etc. I want you to use some placeholder images so that the design feels alive, and I also want you to significantly upgrade the graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Skills in Antigravity</title>
+      <link>http://localhost:1313/posts/2026-03-04-antigravityskills/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-04-antigravityskills/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What are skills?&lt;/strong&gt;
 Skills are reusable packages of knowledge that extend what the agent can do.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Main benefits:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -52,19 +95,33 @@ Skills follow a progressive disclosure pattern:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Activation&lt;/strong&gt;: If a skill looks relevant to your task, the agent reads the full SKILL.md content&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt;: The agent follows the skill&amp;rsquo;s instructions while working on your task&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;In short - AGY skills are lazy loaded into context window (saving on tokens that would have been used for skills definition)&lt;/p&gt;</description></item><item><title>Starter AGENTS md file</title><link>https://rohanchadha.github.io/posts/2026-03-03-agents/</link><pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-03-03-agents/</guid><description>&lt;h2 id="starter-agentsmd-with-3-layer-architecture"&gt;Starter AGENTS.md with 3 layer architecture&lt;/h2&gt;
-&lt;h1 id="agent-instructions"&gt;Agent Instructions&lt;/h1&gt;
+&lt;p&gt;In short - AGY skills are lazy loaded into context window (saving on tokens that would have been used for skills definition)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starter AGENTS md file</title>
+      <link>http://localhost:1313/posts/2026-03-03-agents/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-03-03-agents/</guid>
+      <description>&lt;h2 id=&#34;starter-agentsmd-with-3-layer-architecture&#34;&gt;Starter AGENTS.md with 3 layer architecture&lt;/h2&gt;
+&lt;h1 id=&#34;agent-instructions&#34;&gt;Agent Instructions&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This file is mirrored across CLAUDE.md, AGENTS.md, and GEMINI.md so the same instructions load in any AI environment.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;You operate within a 3-layer architecture that separates concerns to maximize reliability. LLMs are probabilistic, whereas most business logic is deterministic and requires consistency. This system fixes that mismatch.&lt;/p&gt;
-&lt;h2 id="the-3-layer-architecture"&gt;The 3-Layer Architecture&lt;/h2&gt;
+&lt;h2 id=&#34;the-3-layer-architecture&#34;&gt;The 3-Layer Architecture&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Layer 1: Directive (What to do)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Basically just SOPs written in Markdown, live in &lt;code&gt;directives/&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Define the goals, inputs, tools/scripts to use, outputs, and edge cases&lt;/li&gt;
 &lt;li&gt;Natural language instructions, like you&amp;rsquo;d give a mid-level employee&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Layer 2: Orchestration (Decision making)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Antigravity workflows</title><link>https://rohanchadha.github.io/posts/2026-01-04-agytipsforcodingagents/</link><pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-01-04-agytipsforcodingagents/</guid><description>&lt;p&gt;A framework I learnt to get good at vibecoding from this &lt;a href="https://www.youtube.com/watch?v=QZCYFJTv8jI&amp;amp;t=199s"&gt;YT video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Layer 2: Orchestration (Decision making)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antigravity workflows</title>
+      <link>http://localhost:1313/posts/2026-01-04-agytipsforcodingagents/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-01-04-agytipsforcodingagents/</guid>
+      <description>&lt;p&gt;A  framework I learnt to get good at vibecoding from this &lt;a href=&#34;https://www.youtube.com/watch?v=QZCYFJTv8jI&amp;amp;t=199s&#34;&gt;YT video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;FLOW Framework&lt;/strong&gt; - Frame, Layout, Orchestrate, World&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -82,12 +139,22 @@ Skills follow a progressive disclosure pattern:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;L - Layout&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Getting Started with Antigravity</title><link>https://rohanchadha.github.io/posts/2026-01-03-antigravitygettingstarted/</link><pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><guid>https://rohanchadha.github.io/posts/2026-01-03-antigravitygettingstarted/</guid><description>&lt;p&gt;I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
+&lt;p&gt;&lt;strong&gt;L - Layout&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Antigravity</title>
+      <link>http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/</guid>
+      <description>&lt;p&gt;I am getting started with antigravity, will be using this post to capture key concepts and terminologies.
 Antigravity (AGY) is an agent first platform - you give an instruction to an agent, agent goes off on its own, does its task, asks permissions, produces artifacts, then notifies us&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Agent Manager &amp;amp; Editor
-&lt;img alt="Agent Manager vs Editor" loading="lazy" src="https://rohanchadha.github.io/posts/2026-01-03-antigravitygettingstarted/AgentManager.png"&gt;&lt;/p&gt;
+&lt;img alt=&#34;Agent Manager vs Editor&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/2026-01-03-antigravitygettingstarted/AgentManager.png&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;AGY creates artiacts as it plans and gets work done to communicate its work done and get feedback on it. These could be markdown files, architecture diagrams, images, videos, code diffs, etc&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
