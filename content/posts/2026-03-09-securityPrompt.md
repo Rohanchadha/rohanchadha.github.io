@@ -5,6 +5,11 @@ title: 'Claude Code - Security Audit Prompt'
 tags: ["How I AI","Agents","Claude Code","Vibecoding","Antigravity"]
 ---
 
+- Security Audit Skill that has given me decent results. Should run before you push a personal vibe coded project with users to prod
+- Returns a security checklist across 8 categories (pass/fail)
+- Always run in a new Chat (no previous context)
+- Opus works better than Gemini Pro for this
+
 === SECURITY AUDIT PROMPT (COPY EVERYTHING BELOW THIS LINE) ===
 
   <role>
