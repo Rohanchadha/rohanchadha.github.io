@@ -1,7 +1,7 @@
 ---
 date: '2026-01-03'
 draft: false
-title: 'Getting Started with Antigravity'
+title: 'Agent-first development with AntiGravity'
 tags: ["How I AI","Agents","Antigravity","vibecoding"]
 ---
 
