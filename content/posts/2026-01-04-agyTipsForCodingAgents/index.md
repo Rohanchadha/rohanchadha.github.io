@@ -1,6 +1,6 @@
 ---
 date: '2026-01-04'
-draft: false
+draft: true
 title: 'Antigravity workflows'
 tags: ["How I AI","Agents","Antigravity","Vibecoding"]
 ---
