@@ -7,3 +7,5 @@ tags: ["Product Management","Interview"]
 
 - What 4 Key Metrics would you look at daily if you were Product head of Youtube Premium?
 - How would you improve Naukri Jobseeker App?
+- How would you improve WhatsApp
+- 
