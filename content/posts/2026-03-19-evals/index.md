@@ -103,3 +103,6 @@ RAG Evaluation
 Response Generation: The LLM produces a response using the enhanced context and query.
 - Answer Validation: The agent verifies whether the response is relevant to the original question.
 - Final Output: If validated, the system delivers a precise, context-aware final response.
+
+
+Course Link - https://aianalystlab.ai/ai-evals-course/w1-l2-product-evaluation-framework/
